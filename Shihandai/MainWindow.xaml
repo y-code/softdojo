@@ -1,0 +1,16 @@
+﻿<Window x:Class="SoftDojo.Shihandai.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WCF Sample Client" Height="350" Width="525">
+    <Grid>
+		<DockPanel>
+			<Menu HorizontalAlignment="Stretch" VerticalAlignment="Top">
+				<MenuItem Header="_Client Controle">
+					<MenuItem Name="CmdRegister" Header="_Register" Click="CmdRegister_Click"/>
+					<MenuItem Name="CmdUnregister" Header="_Unregister" Click="CmdUnregister_Click"/>
+				</MenuItem>
+			</Menu>
+		</DockPanel>
+		<TextBox Name="TxtConsole" Initialized="TxtConsole_Initialized" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,18,0,0" Foreground="Gray" Background="Black" IsReadOnly="True"/>
+	</Grid>
+</Window>

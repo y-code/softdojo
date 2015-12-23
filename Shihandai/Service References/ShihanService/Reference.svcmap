@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c42bbc8e-c5e9-4022-aefa-e9a450e9bca4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:777/service2shihandai" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service2shihandai.xsd" MetadataType="Schema" ID="ae1ff405-38f0-4a64-8801-c86e59d52be8" SourceId="1" SourceUrl="http://localhost:777/service2shihandai?xsd=xsd1" />
+    <MetadataFile FileName="service2shihandai1.xsd" MetadataType="Schema" ID="6b8a9713-e2f8-491f-bbe0-41caed1a7f09" SourceId="1" SourceUrl="http://localhost:777/service2shihandai?xsd=xsd0" />
+    <MetadataFile FileName="WCFService.wsdl" MetadataType="Wsdl" ID="c8959087-6f6c-4daf-bceb-5b77579c71a5" SourceId="1" SourceUrl="http://localhost:777/service2shihandai?wsdl" />
+    <MetadataFile FileName="service2shihandai.disco" MetadataType="Disco" ID="f2a0a5ad-aa6b-46d6-991e-3222dbb2ec9c" SourceId="1" SourceUrl="http://localhost:777/service2shihandai?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

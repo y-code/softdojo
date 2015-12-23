@@ -1,0 +1,17 @@
+﻿<Window x:Class="SoftDojo.Shihan.WinApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WCF Win App" Height="350" Width="525">
+    <Grid>
+		<DockPanel>
+			<Menu HorizontalAlignment="Stretch" VerticalAlignment="Top">
+				<MenuItem Header="_Service Controle">
+					<MenuItem Name="CmdStart" Header="_Start" Click="CmdStart_Click"/>
+					<MenuItem Name="CmdStop" Header="_Stop" Click="CmdStop_Click"/>
+					<MenuItem Name="CmdRestart" Header="_Restart" Click="CmdRestart_Click"/>
+				</MenuItem>
+			</Menu>
+		</DockPanel>
+		<TextBox Name="TxtConsole" Initialized="TxtConsole_Initialized" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,18,0,0" Foreground="Gray" Background="Black" IsReadOnly="True"/>
+	</Grid>
+</Window>
